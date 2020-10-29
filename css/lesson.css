@@ -1,0 +1,37 @@
+.title {
+  text-align: center;
+  padding: 30px 0;
+}
+
+
+/* 動画部分のデザイン */
+.video-wrap {
+    /* position: relative; */
+}
+
+.video {
+  width: 100%;
+}
+
+.video-btn {
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:40px; /*コントローラー分下部に余白を*/
+    cursor: pointer;
+}
+
+.score {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 20px;
+}
+
+.radio {
+  text-align:center;
+  margin-bottom: 80px;
+}

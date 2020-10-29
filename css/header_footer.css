@@ -1,0 +1,156 @@
+/* ヘッダーデザイン */
+.header_con1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cover_img {
+  width: 100%;
+}
+
+.header_con2 {
+  width: 100%;
+  background: #222222;
+}
+
+.con2_item1 {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.con2_ul1 {
+  display: flex;
+}
+
+.li1 {
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.menu_a {
+  margin: 0 auto;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0;
+  background: #222222;
+  position: relative;
+}
+
+.menu_a:hover {
+  background-color: #555555;
+}
+
+/* キャレットをデザイン */
+/* レスポンシブのことはいったん考えてない */
+.caret {
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position: relative;
+  top: 15px;
+  left: 8px;
+}
+
+/* フッターデザイン */
+.footer_con1 {
+  width: 980px;
+  margin: 0 auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer_con1_item1 {
+  width: 150px;
+}
+
+.footer_con1_item2 {
+ font-size: 12px;
+}
+
+.footer_con1_item3 {
+  height: 10px;
+  width: 150px;
+}
+
+/* 共通メインデザイン */
+main {
+  background: #f7f7f7;
+  padding: 20px 0;
+}
+
+.main_wrap {
+  width: 980px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px;
+}
+
+/* 共通デザイン */
+.padding30 {
+  padding: 30px 0;
+}
+
+.padding_t30 {
+  padding-top: 30px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.height30 {
+  height: 30px;
+}
+
+.height60 {
+  height: 60px;
+}
+
+.padding_b30 {
+  padding-bottom: 30px;
+}
+
+.drop_menu {
+  position: absolute;
+  top: 90%;
+  left: 1%;
+  z-index: 1000;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,0.15);
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+  background-clip: padding-box;
+}
+
+.border1 {
+  border-bottom: 1px dashed #222222;
+}
+
+.li2 {
+  padding: 5px 0;
+}
+
+.a2 {
+  color: #333;
+  text-decoration: none;
+}
+
+.li2:hover {
+  background-color: #555555;
+}
+
+.a2:hover {
+  color: white;
+}
